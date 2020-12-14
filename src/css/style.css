@@ -1,0 +1,83 @@
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/OLenake.me/blob/master/LICENSE)
+ */
+
+/* Import fonts from ccs file */
+@import url(./fonts.css);
+
+/* CSS variables */
+@import url(./partials/_variables.css);
+
+/* Import Global Styling */
+@import url(./partials/_global.css);
+
+/* Start Navigation */
+
+.header-section .nav-wrapper .navbar .navbar-brand {
+    padding: 0 2rem 0 5rem;
+}
+
+.header-section .nav-wrapper .navbar {
+    padding: 1rem 20rem;
+}
+
+.header-section .nav-wrapper .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header-section .nav-wrapper .navbar-nav .active a {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header-section .nav-wrapper .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* End Navigation */
+
+/* Start Banner Area */
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+    /* background-position: 0% 50%; */    /* Horizonta, Vertical */
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: "";
+    height: 4px;
+    width: 24vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translate(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area */
