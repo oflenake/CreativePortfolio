@@ -1,7 +1,7 @@
 /*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
  * Copyright 2020 Onkgopotse Lenake
- * Licensed under MIT (https://github.com/OLenake/OLenake.me/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
  */
 
 /* Import fonts from ccs file */
@@ -60,7 +60,7 @@
 .site-main .site-banner .site-title h3::after {
     content: "";
     height: 4px;
-    width: 24vw;
+    width: 20vw;
     background: black;
     display: inline-block;
     margin-left: 5%;
@@ -72,7 +72,7 @@
 }
 
 .site-main .site-banner .site-title h4 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .site-main .site-banner .banner-image > img {
