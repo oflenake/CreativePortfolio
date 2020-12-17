@@ -1,4 +1,8 @@
-
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
+ */
 
 html, body {
     margin: 0;
@@ -10,15 +14,14 @@ html, body {
 
 /* CSS Variables */
 :root {
-    --primary-color: #4458dc;
-    --primary-color2: #854fee;
-    --title-color: #141313;
-    --text-color: #777777;
-    --border-color: #201f1f17;
-    --gradient-color: linear-gradient(90deg, #4458de 0%, #854fee 100%);
+    --primary-color: #0078D7;
+    --primary-color2: #00C6FC;
+    --title-color: #212121;
+    --text-color: #757575;
+    --border-color: #BDBDBD;
+    --gradient-color: linear-gradient(90deg, #0078D7 0%, #00C6FC 100%);
     --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
     --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
-
-    /* font-family variables */
+    /* Font-Family Variables */
     --roboto: "Roboto", cursive;
 }

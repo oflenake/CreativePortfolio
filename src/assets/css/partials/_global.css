@@ -1,5 +1,10 @@
-/* Global Classes */
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
+ */
 
+/* Global Classes */
 .title-hrule {
     font: normal bold 45px/72px var(--roboto);
 }
@@ -56,4 +61,3 @@
     color: whitesmoke;
     box-shadow: var(--box-shadow);
 }
-
