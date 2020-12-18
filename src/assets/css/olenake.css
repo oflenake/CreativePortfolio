@@ -5,8 +5,11 @@
  */
 
 /* Import Fonts, CSS Variables and Global Styling */
-/*@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?Nunito+Sans:wght@600&display=swap");*/
+
+/*!
+ * @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+ * @import url("https://fonts.googleapis.com/css2?Nunito+Sans:wght@600&display=swap");
+ */
 
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
