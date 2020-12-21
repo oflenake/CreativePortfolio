@@ -24,6 +24,11 @@ html, body {
     --secondary-color: #FFCC00;
     --secondary-color-light: #FFE100;
 
+    --ternary-color-dark: #333333;
+    --ternary-color: #666666;
+    --ternary-color-light: #909090;
+    --grayish-blue-darker: #4B5B70;
+
     /* Other Palette Colors */
     --primary-text-color: #212121;
     --secondary-text-color: #757575;

@@ -96,6 +96,227 @@
 }
 /* End Hero Area */
 
+/* Start About Area */ 
+.main .about {
+    padding: 8rem 5rem;
+}
+
+.main .about .about-title h2 > span {
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.main .about .about-title .paragraph > p {
+    padding: .4rem 0;
+}
+/* End About Area */ 
+
+/* Start Brand Area */ 
+.main .brands {
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+
+.main .brands .first-row .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.main .brands .first-row .col-lg-4 > .single-brand {
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+
+.main .brands .first-row .col-lg-4 > .single-brand > img {
+    width: 50%;
+}
+
+.main .brands .first-row .col-lg-4 > .single-brand:hover {
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+
+.main .brands .first-row .col-lg-4 > .single-brand:hover > img {
+    filter: brightness(0.15);
+}
+
+.main .brands .experience {
+    padding-left: 1rem;
+}
+
+.main .brands .experience span {
+    display: block;
+}
+
+.main .brands .experience .years {
+    background: url(../../assets/img/client-info-bg.png) no-repeat 45px 20px;
+    padding: 2rem 0;
+    width: 40rem;
+    height: 18rem;
+    padding-left: 8rem;
+    position: relative;
+}
+
+.main .brands .experience .bg-panel {
+    position: absolute;
+    left: -190px; top: 0%;
+    background: var(--primary-background-color);
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -1;
+}
+
+.main .brands .experience .years .year {
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--secondary-color);
+    z-index: 2;
+}
+
+.main .brands .experience .years h2 > span {
+    font: normal 600 22px/30px var(--roboto);
+}
+
+.main .brands .experience .call-me {
+    padding-left: 10rem;
+}
+/* End Brand Area */ 
+
+/* Services Area */ 
+.main .services {
+    padding: 7rem 2rem;
+}
+
+.main .services .services-title {
+    padding: 0 14rem;
+}
+
+.main .services .services-title h1 {
+    font-size: 35px;
+}
+
+.main > .services .service {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.main > .services .service:hover {
+    box-shadow: var(--box-shadow);
+}
+/* End Services Area */ 
+
+/* Project Area */ 
+.main .projects {
+    padding: 4rem 0;
+}
+
+.main .projects .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.main .projects .button-group button + button {
+    padding-left: 3rem;
+}
+
+.main .projects .grid .our-project > .title h4 {
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.main .projects .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #4B5B70);
+}
+/* End Project Area */ 
+
+/* About Me */ 
+.main .about .about-title p {
+    padding: 1rem 7rem;
+}
+
+.main .about .clients {
+    background: var(--white-color);
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+
+.main .about .clients .clients-img {
+    padding: 2rem;
+}
+
+.main .about .clients .about-client {
+    padding-top: 2rem;
+}
+
+.main .about .clients .about-client h4 {
+    font: normal 500 21px/ 20px var(--roboto);
+}
+
+.main .about .clients .about-client p {
+    font-size: 14px;
+}
+
+.main .about .owl-carousel .owl-item {
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.main .about .owl-carousel .owl-dots .owl-dot.active span {
+    background: var(--primary-color);
+    width: 12px;
+    height: 12px;
+}
+/* End About Me */ 
+
+/* Subscribe me */ 
+.main .subscribe-us .subscribe {
+    background: url(../../assets/img/subscribe-bg.png) no-repeat;
+    padding: 10rem 0;
+    margin: 3rem auto;
+}
+
+.main .subscribe-us .subscribe .subscribe-title h4 {
+    font: normal 700 30px/ 30px var(--roboto);
+    color: whitesmoke;
+}
+
+.main .subscribe-us .subscribe .subscribe-title p {
+    color: whitesmoke;
+    padding: 1rem 4rem;
+}
+
+.main .subscribe-us .subscribe form .input-textbox input {
+    width: 400px;
+    padding: 1.5rem 1rem;
+    border: 1px solid whitesmoke;
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.main .subscribe-us .subscribe form .input-textbox input::placeholder {
+    color: whitesmoke;
+}
+
+.main .subscribe-us .subscribe form .btn-submit button {
+    background: whitesmoke;
+    color: #000;
+    padding: .7rem 2rem;
+}
+/* End subscribe me */ 
+
 /* Footer Area */ 
 footer.footer {
     padding: 5rem 0;
