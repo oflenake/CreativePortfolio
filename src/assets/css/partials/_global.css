@@ -1,6 +1,6 @@
 /*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
- * Copyright 2020 Onkgopotse Lenake
+ * Copyright © 2020 Onkgopotse Lenake
  * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
  */
 
@@ -15,6 +15,31 @@
 
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.heading {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.title {
+    text-align: center;
+    font-size: 80px;
+    font-family: var(--roboto);
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Buttons */
@@ -60,4 +85,39 @@
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);
+}
+
+p.para {
+    color: var(--primary-text-color);
+    font: normal 500 16px/ 25px var(--roboto);
+}
+
+.font-roboto {
+    font-family: var(--roboto);
+}
+
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1 {
+    font: normal bold 39px/ 40px var(--roboto);
+}
+
+
+.navbar_fixed {
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
 }

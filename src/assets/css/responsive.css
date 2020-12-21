@@ -1,0 +1,87 @@
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright © 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
+ */
+
+/* If the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px) {
+    .header .navigation .navbar,
+    .header .navigation .navbar .navbar-brand,
+    .main .subscribe-us-area .subscribe .subscribe-title,
+    .main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .main .services-area,
+    .main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .main .hero .greeting h1 {
+        font-size: 41px;
+    }
+
+    .main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 15rem !important;
+    }
+
+    .main > .services-area .services {
+        width: 13rem;
+    }
+
+}
+
+/* If the viewport is equal to 792px or less than that */ 
+@media only screen and (max-width: 792px) {
+    .main .about-area .about-title h2 > span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .main .brand-area .experience-area .years-area {
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .main .brand-area .experience-area .bg-panel {
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .main .brand-area .experience-area .call-area {
+        padding-left: 3%;
+    }
+
+    .main .project-area .button-group button {
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .main .about-area .about-title p {
+        padding: 0%;
+    }
+
+    .main .subscribe-us-area .subscribe form .input-textbox input {
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+
+/* If the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px) {
+    .header .navigation .navbar{
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .main .brand-area,
+    .main .services-area .services-title,
+    .main .about-area {
+        padding: 3% 4%;
+    }
+
+
+}

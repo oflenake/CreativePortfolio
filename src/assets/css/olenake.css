@@ -1,6 +1,6 @@
 /*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
- * Copyright 2020 Onkgopotse Lenake
+ * Copyright © 2020 Onkgopotse Lenake
  * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
  */
 
@@ -11,34 +11,34 @@
  * @import url("https://fonts.googleapis.com/css2?Nunito+Sans:wght@600&display=swap");
  */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
-
 /* Start Navigation */
-.header_area .mainNav .navbar .navbar-brand {
+.header .navigation .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
 
-.header_area .mainNav .navbar {
+.header .navigation .navbar {
     padding: 1rem 20rem;
 }
 
-.header_area .mainNav .nav-item .nav-link {
+.header .navigation .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
-    color: var(--title-color);
+    color: var(--primary-text-color);
 }
 
-.header_area .mainNav .navbar-nav .active a {
+.header .navigation .navbar-nav .active a {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.header_area .mainNav .navbar-nav a:hover {
+.header .navigation .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -46,18 +46,21 @@
 }
 /* End Navigation */
 
-/* Start Banner Area */
-.site-main .site-banner {
-    background: url(../images/content/home/home-banner.png) no-repeat 0% 50%;
-    /* background-position: 0% 50%; */ /* Horizontal, Vertical */
+/* Start Hero Area */
+.header .hero {
+    background: url(../../assets/img/banners/hero-banner.png) no-repeat 0% 50%;
+    /*background-IMAGE: url(../../assets/img/banners/banner_hero.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;*/
 }
 
-.site-main .site-banner .site-title h3 {
+.header .hero .greeting h3 {
     padding-top: 35%;
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after {
+.header .hero .greeting h3::after {
     content: " ";
     height: 2px;
     width: 18vw;
@@ -67,16 +70,49 @@
     transform: translateY(-10px);
 }
 
-.site-main .site-banner .site-title h1 {
-    font-size: 5rem;
+.header .hero .greeting h1 {
+    font-size: 4rem;
 }
 
-.site-main .site-banner .site-title h4 {
-    font-size: 1.5rem;
+.header .hero .greeting h4 {
+    font-size: 1.35rem;
 }
 
-.site-main .site-banner .banner-image > img {
+#profilepic-container {
+    text-align: center;
+}
+
+#profilepic {
+    height: 300px;
+    width: auto;
+    border: 6px solid #0275d8;
+    padding: 2px;
+    margin-bottom: 15px;
+}
+
+.header .hero .profilepic > img {
     padding: 7rem 0;
     width: 90rem;
 }
-/* End Banner Area */
+/* End Hero Area */
+
+/* Footer Area */ 
+footer.footer {
+    padding: 5rem 0;
+    background: url(../../assets/img/footer-bg.png) no-repeat;
+}
+
+footer.footer .social h5 {
+    font: normal 500 23px/ 30px var(--roboto);
+}
+
+footer.footer .social a > i {
+    font-size:22px;
+    padding: 2rem;
+    color: var(--border-color);
+}
+
+footer.footer .social a:hover > i {
+    color: var(--primary-color);
+}
+/* End Footer */ 
