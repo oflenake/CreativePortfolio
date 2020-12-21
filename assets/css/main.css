@@ -1,20 +1,15 @@
-/*!
+﻿/*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
- * Copyright � 2020 Onkgopotse Lenake
+ * Copyright © 2020 Onkgopotse Lenake
  * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
  */
 
 /* Import Fonts, CSS Variables and Global Styling */
-
-/*!
- * @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
- * @import url("https://fonts.googleapis.com/css2?Nunito+Sans:wght@600&display=swap");
- */
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
+
 /* Start Navigation */
 .header .navigation .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
@@ -47,7 +42,7 @@
 /* End Navigation */
 
 /* Start Hero Area */
-.header .hero {
+.main .hero {
     background: url(../../assets/img/banners/hero-banner.png) no-repeat 0% 50%;
     /*background-IMAGE: url(../../assets/img/banners/banner_hero.png);
     background-size: cover;
@@ -55,12 +50,12 @@
     background-blend-mode: screen;*/
 }
 
-.header .hero .greeting h3 {
+.main .hero .greeting h3 {
     padding-top: 35%;
     font-weight: 500;
 }
 
-.header .hero .greeting h3::after {
+.main .hero .greeting h3::after {
     content: " ";
     height: 2px;
     width: 18vw;
@@ -70,11 +65,11 @@
     transform: translateY(-10px);
 }
 
-.header .hero .greeting h1 {
+.main .hero .greeting h1 {
     font-size: 4rem;
 }
 
-.header .hero .greeting h4 {
+.main .hero .greeting h4 {
     font-size: 1.35rem;
 }
 
@@ -90,27 +85,27 @@
     margin-bottom: 15px;
 }
 
-.header .hero .profilepic > img {
-    padding: 7rem 0;
+.main .hero .profilepic > img {
+    padding: 5rem 0;
     width: 90rem;
 }
 /* End Hero Area */
 
-/* Start About Area */ 
-.main .about {
+/* Start Intro Area */ 
+.main .intro {
     padding: 8rem 5rem;
 }
 
-.main .about .about-title h2 > span {
+.main .intro .intro-title h2 > span {
     display: block;
     font: normal bold 49px/ 60px var(--roboto);
     letter-spacing: 21px;
 }
 
-.main .about .about-title .paragraph > p {
+.main .intro .intro-title .paragraph > p {
     padding: .4rem 0;
 }
-/* End About Area */ 
+/* End Intro Area */ 
 
 /* Start Brand Area */ 
 .main .brands {
@@ -231,56 +226,56 @@
     padding-left: 3rem;
 }
 
-.main .projects .grid .our-project > .title h4 {
+.main .projects .grid .project > .title h4 {
     font: normal 700 25px/12px var(--roboto);
 }
 
-.main .projects .grid .our-project .img a:hover img {
+.main .projects .grid .project .img a:hover img {
     filter: brightness(1.1) drop-shadow(1px 8px 30px #4B5B70);
 }
 /* End Project Area */ 
 
-/* About Me */ 
-.main .about .about-title p {
+/* Testimonials */
+.main .testimonials .testimonials-title p {
     padding: 1rem 7rem;
 }
 
-.main .about .clients {
+.main .testimonials .clients {
     background: var(--white-color);
     box-shadow: var(--box-shadow);
     margin: 3rem 0rem;
 }
 
-.main .about .clients .clients-img {
+.main .testimonials .clients .client-image {
     padding: 2rem;
 }
 
-.main .about .clients .about-client {
+.main .testimonials .clients .client-testimonial {
     padding-top: 2rem;
 }
 
-.main .about .clients .about-client h4 {
+.main .testimonials .clients .client-testimonial h4 {
     font: normal 500 21px/ 20px var(--roboto);
 }
 
-.main .about .clients .about-client p {
+.main .testimonials .clients .client-testimonial p {
     font-size: 14px;
 }
 
-.main .about .owl-carousel .owl-item {
+.main .testimonials .owl-carousel .owl-item {
     display: flex;
     justify-content: center;
     padding: 0 1.5rem;
 }
 
-.main .about .owl-carousel .owl-dots .owl-dot.active span {
+.main .testimonials .owl-carousel .owl-dots .owl-dot.active span {
     background: var(--primary-color);
     width: 12px;
     height: 12px;
 }
-/* End About Me */ 
+/* End Testimonials */ 
 
-/* Subscribe me */ 
+/* Subscribe */ 
 .main .subscribe-us .subscribe {
     background: url(../../assets/img/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
@@ -315,7 +310,7 @@
     color: #000;
     padding: .7rem 2rem;
 }
-/* End subscribe me */ 
+/* End subscribe */ 
 
 /* Footer Area */ 
 footer.footer {

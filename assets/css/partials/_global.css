@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
  * Copyright © 2020 Onkgopotse Lenake
@@ -6,7 +7,7 @@
 
 /* Global Classes */
 .title-hrule {
-    font: normal bold 45px/72px var(--roboto);
+    font: normal bold 50px/72px var(--roboto);
 }
 
 .title-text {

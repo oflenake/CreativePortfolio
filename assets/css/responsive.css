@@ -8,10 +8,10 @@
 @media only screen and (max-width: 340px) {
     .header .navigation .navbar,
     .header .navigation .navbar .navbar-brand,
-    .main .subscribe-us-area .subscribe .subscribe-title,
-    .main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .main .services-area,
-    .main .subscribe-us-area .subscribe
+    .main .subscribe-us .subscribe .subscribe-title,
+    .main .subscribe-us .subscribe .subscribe-title p, h4,
+    .main .services,
+    .main .subscribe-us .subscribe
     {
         padding: 2%;
         margin: 0%;
@@ -21,11 +21,11 @@
         font-size: 41px;
     }
 
-    .main .subscribe-us-area .subscribe form .input-textbox input {
+    .main .subscribe-us .subscribe form .input-textbox input {
         width: 15rem !important;
     }
 
-    .main > .services-area .services {
+    .main > .services .service {
         width: 13rem;
     }
 
@@ -33,34 +33,34 @@
 
 /* If the viewport is equal to 792px or less than that */ 
 @media only screen and (max-width: 792px) {
-    .main .about-area .about-title h2 > span {
+    .main .about .about-title h2 > span {
         font-size: 31px;
         letter-spacing: 10px;
     }
 
-    .main .brand-area .experience-area .years-area {
+    .main .brands .experience .years {
         padding-left: 1%;
         width: 49%;
     }
 
-    .main .brand-area .experience-area .bg-panel {
+    .main .brands .experience .bg-panel {
         margin-left: 30%;
         width: 80%;   
     }
 
-    .main .brand-area .experience-area .call-area {
+    .main .brands .experience .call-me {
         padding-left: 3%;
     }
 
-    .main .project-area .button-group button {
+    .main .projects .button-group button {
         font: normal 500 18px/40px var(--roboto);
     }
 
-    .main .about-area .about-title p {
+    .main .about .about-title p {
         padding: 0%;
     }
 
-    .main .subscribe-us-area .subscribe form .input-textbox input {
+    .main .subscribe-us .subscribe form .input-textbox input {
         width: 20rem;
         margin: 5%;
     }
@@ -77,9 +77,9 @@
         max-width: 90%;
     }
 
-    .main .brand-area,
-    .main .services-area .services-title,
-    .main .about-area {
+    .main .brands,
+    .main .services .services-title,
+    .main .about {
         padding: 3% 4%;
     }
 
