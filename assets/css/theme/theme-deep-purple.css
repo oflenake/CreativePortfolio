@@ -1,5 +1,4 @@
-﻿@charset "UTF-8";
-/*!
+﻿/*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
  * Copyright © 2020 Onkgopotse Lenake
  * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
@@ -26,18 +25,18 @@
     --clr-secondary-text: #757575;
 
     /* OLenake Color Palette - Other */
-	--primaryColor: #606B56;
-	--secondaryColor: #515A48;
+	--primaryColor: #46344E;
+	--secondaryColor: #382A3F;
 
 	--primaryTextColor: #FFF;
 	--secondaryTextColor: #EEEEEE;
 
-	--borderColor: #161914;
+	--borderColor: #1D1520;
 	--themeDotBorderColor: #FFF;
 
-	--previewBg: rgb(81, 90, 72, 0.8);
-	--previewShadow: #2A2F25;
+	--previewBg: rgb(29, 21, 32, 0.8);
+	--previewShadow: #2B202F;
 
 
-	--primaryButtonColor: #669966;
+	--primaryButtonColor: #8534A3;
 }

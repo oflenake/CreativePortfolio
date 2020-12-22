@@ -10,6 +10,10 @@
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 
+html, body {
+    height: 100%
+}
+
 /* Start Navigation */
 .header .navigation .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
@@ -43,11 +47,24 @@
 
 /* Start Hero Area */
 .main .hero {
-    background: url(../../assets/img/banners/hero-banner.png) no-repeat 0% 50%;
-    /*background-IMAGE: url(../../assets/img/banners/banner_hero.png);
+    /*background: url(../../images/banner/hero-banner.png) no-repeat 0% 50%;*/
+    background-image: url(../../images/banner/hero-banner.png);
     background-size: cover;
     background-position: center;
-    background-blend-mode: screen;*/
+    background-color: #051f35;
+    background-blend-mode: screen;
+}
+
+#profilepic-container {
+    text-align: center;
+}
+
+#profilepic {
+    height: 300px;
+    width: auto;
+    border: 6px solid #0275d8;
+    padding: 2px;
+    margin-bottom: 15px;
 }
 
 .main .hero .greeting h3 {
@@ -66,27 +83,15 @@
 }
 
 .main .hero .greeting h1 {
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 .main .hero .greeting h4 {
-    font-size: 1.35rem;
-}
-
-#profilepic-container {
-    text-align: center;
-}
-
-#profilepic {
-    height: 300px;
-    width: auto;
-    border: 6px solid #0275d8;
-    padding: 2px;
-    margin-bottom: 15px;
+    font-size: 1.4rem;
 }
 
 .main .hero .profilepic > img {
-    padding: 5rem 0;
+    padding: 7rem 0;
     width: 90rem;
 }
 /* End Hero Area */
@@ -150,14 +155,14 @@
     display: block;
 }
 
-.main .brands .experience .years {
-    background: url(../../assets/img/client-info-bg.png) no-repeat 45px 20px;
-    padding: 2rem 0;
-    width: 40rem;
-    height: 18rem;
-    padding-left: 8rem;
-    position: relative;
-}
+    .main .brands .experience .years {
+        background: url(../../images/client-info-bg.png) no-repeat 45px 20px;
+        padding: 2rem 0;
+        width: 40rem;
+        height: 18rem;
+        padding-left: 8rem;
+        position: relative;
+    }
 
 .main .brands .experience .bg-panel {
     position: absolute;
@@ -275,9 +280,9 @@
 }
 /* End Testimonials */ 
 
-/* Subscribe */ 
+/* Subscribe */
 .main .subscribe-us .subscribe {
-    background: url(../../assets/img/subscribe-bg.png) no-repeat;
+    background: url(../../images/subscribe-bg.png) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
 }
@@ -312,10 +317,10 @@
 }
 /* End subscribe */ 
 
-/* Footer Area */ 
+/* Footer Area */
 footer.footer {
     padding: 5rem 0;
-    background: url(../../assets/img/footer-bg.png) no-repeat;
+    background: url(../../images/footer-bg.png) no-repeat;
 }
 
 footer.footer .social h5 {
