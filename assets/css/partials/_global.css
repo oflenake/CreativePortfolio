@@ -1,16 +1,16 @@
 ﻿/*!
  * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
- * Copyright � 2020 Onkgopotse Lenake
+ * Copyright © 2020 Onkgopotse Lenake
  * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
  */
 
 /* Global Classes */
 .title-hrule {
-    font: normal bold 50px/72px var(--roboto);
+    font: normal bold 50px/72px var(--font-roboto);
 }
 
 .title-text {
-    font: normal bold 50px/72px var(--roboto);
+    font: normal bold 50px/72px var(--font-roboto);
 }
 
 .text-uppercase {
@@ -31,7 +31,7 @@
 .title {
     text-align: center;
     font-size: 80px;
-    font-family: var(--roboto);
+    font-family: var(--font-roboto);
     font-weight: normal;
     margin-bottom: 0px;
 }
@@ -45,7 +45,7 @@
 /* Buttons */
 .button {
     padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
+    font: normal 500 16px/20px var(--font-roboto);
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
@@ -89,11 +89,11 @@
 
 p.para {
     color: var(--primary-text-color);
-    font: normal 500 16px/ 25px var(--roboto);
+    font: normal 500 16px/ 25px var(--font-roboto);
 }
 
 .font-roboto {
-    font-family: var(--roboto);
+    font-family: var(--font-roboto);
 }
 
 button:focus,
@@ -106,7 +106,7 @@ button:hover,
 }
 
 .title-h1 {
-    font: normal bold 39px/ 40px var(--roboto);
+    font: normal bold 39px/ 40px var(--font-roboto);
 }
 
 

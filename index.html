@@ -6,14 +6,16 @@
 -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Meta Data -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Personal portfolio website" />
-    <meta name="author" content="Onkgopotse" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Title -->
     <title>Onkgopotse Lenake - Portfolio</title>
+    <meta name="description" content="Onkgopotse Lenake portfolio website showcasing professional expertise, work and experience." />
+    <meta name="author" content="Onkgopotse Lenake and contributors" />
 
     <!-- Favicons -->
     <link rel="icon" type="image/x-icon" href="images/logo/favicon.ico" />
@@ -23,17 +25,27 @@
     <link rel="apple-touch-icon" sizes="124x124" href="images/logo/favicon_124x124.png" />
     <link rel="apple-touch-icon" sizes="156x156" href="images/logo/favicon_156x156.png" />
 
+    <!-- JS Fonts - Font Awesome Icons (free version: 5.15.1) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a311b9bcf9.js" crossorigin="anonymous"></script>
+
+    <!-- CSS Fonts - Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" />
+
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendor/Magnific-Popup/dist/magnific-popup.css" />
     <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.theme.default.min.css" />
 
-    <!-- CSS Icons -->
+    <!-- CSS Fonts - Font Awesome Icons (free version: 5.15.1) -->
     <link rel="stylesheet" href="assets/css/all.min.css" />
 
     <!-- CSS Base -->
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/olenake.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
 </head>
@@ -49,7 +61,7 @@
                 <div class="container">
                     <!-- Navbar brand -->
                     <a class="navbar-brand" href="#">
-                        <img src="images/logo/full/OLenake_Logo.png" alt="Onkgopotse Logo" loading="lazy">
+                        <img src="images/branding/logoolme/2x/OL_LogoFull_Color.png" alt="Onkgopotse Logo" loading="lazy">
                     </a>
 
                     <!-- Toggle button -->
@@ -68,7 +80,7 @@
                         <!-- Left Links -->
                         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#start">Start</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#about">About</a>
@@ -84,19 +96,10 @@
                             </li>
                         </ul>
 
-                        <!-- Right Links - Social Icons -->
+                        <!-- Right Links -->
                         <ul class="navbar-nav d-flex flex-row">
                             <li class="nav-item mr-3 mr-lg-0">
-                                <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
-                            </li>
-                            <li class="nav-item mr-3 mr-lg-0">
-                                <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
-                            </li>
-                            <li class="nav-item mr-3 mr-lg-0">
-                                <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li class="nav-item mr-3 mr-lg-0">
-                                <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase">Get In Touch</button>
                             </li>
                         </ul>
 
@@ -110,6 +113,7 @@
 
     </header>
     <!-- ======================= End Header Area ======================= -->
+
     <!-- ======================= Main Area ======================= -->
     <main class="main">
 
@@ -117,6 +121,14 @@
         <section class="hero">
             <div class="container">
                 <div class="row">
+
+                    <!-- Column 2 - Hero Image -->
+                    <div class="col-lg-6 col-md-12">
+                        <div id="profilepic-container">
+                            <img id="profilepic" src="images/banner/OLenake_Profile_2.jpg" alt="Onkgopotse Profile">
+                        </div>
+                    </div>
+
                     <!-- Column 1 - Hero Content -->
                     <div class="col-lg-6 col-md-12 greeting">
                         <h3 class="title-hrule">Hey</h3>
@@ -124,17 +136,12 @@
                         <h4 class="title-text text-uppercase">Software Engineer &nbsp;&middot;&nbsp; Designer &nbsp;&middot;&nbsp; Visionary</h4>
                         <div class="greeting-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">Hire me</button>
+                                <button type="button" class="btn button primary-button mr-4 text-uppercase">Say Hello</button>
                                 <button type="button" class="btn button secondary-button text-uppercase">Get CV</button>
                             </div>
                         </div>
                     </div>
-                    <!-- Column 2 - Hero Image -->
-                    <div class="col-lg-6 col-md-12">
-                        <div id="profilepic-container">
-                            <img id="profilepic" src="images/banner/OLenake_Profile_2.jpg" alt="Onkgopotse Profile">
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -245,7 +252,7 @@
                                 <span><i class="fas fa-phone-alt fa-3x px-3"></i></span>
                                 <div class="call-now">
                                     <a href="#" class="text-uppercase h4 font-roboto">Call Now</a>
-                                    <span class="font-roboto py-2">(+91)-800-555-4986</span>
+                                    <span class="font-roboto py-2">(+27)-800-555-4986</span>
                                 </div>
                             </div>
                             <div class="bg-panel"></div>
@@ -612,29 +619,34 @@
 
     </main>
     <!-- ======================= End Main Area ======================= -->
+
     <!-- ======================= Footer Area ======================= -->
-    <footer class="footer">
+    <footer id="footer">
         <div class="container">
             <div class="">
                 <!-- Footer Social -->
                 <div class="social text-center">
-                    <h5 class="text-uppercase">Follow me</h5>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <!--<h5 class="text-uppercase">Follow me</h5>-->
+                    <a href="https://www.linkedin.com/in/olenake/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/OLenake" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.facebook.com/onkgopotse.lenake/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/O_Lenake" target="_blank"><i class="fab fa-twitter"></i></a>
                 </div>
                 <!-- Footer Copyright -->
-                <div class="copyrights text-center">
-                    <p class="para">
-                        © 2020 Onkgopotse Lenake - Made with love by
-                        <a href="https://onkgopotselenake.me/" target="_blank"><span style="color: var(--primary-color);">Onkgopotse</span></a>.
-                    </p>
+                <div class="author-copyright text-center">
+                    <div>
+                        Copyright © 2020 Onkgopotse Lenake.
+                    </div>
+                    <div>
+                        Made with <span class="heart-icon">hrt</span>&nbsp;by 
+                        <a href="https://onkgopotselenake.me/" target="_blank"><span style="color: var(--primary-color);">@Onkgopotse</span></a>.
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- ======================= End Footer Area ======================= -->
+
     <!-- JS Plugins -->
     <script src="assets/js/jquery.3.5.1.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -643,7 +655,7 @@
     <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
     <!-- JS Base  -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/olenake.js"></script>
 
 </body>
 </html>
