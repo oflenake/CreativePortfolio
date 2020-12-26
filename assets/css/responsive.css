@@ -1,0 +1,87 @@
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright © 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
+ */
+
+/* If the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px) {
+    .header .navigation .navbar,
+    .header .navigation .navbar .navbar-brand,
+    .main .subscribe-us .subscribe .subscribe-title,
+    .main .subscribe-us .subscribe .subscribe-title p, h4,
+    .main .services,
+    .main .subscribe-us .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .main .hero .greeting h1 {
+        font-size: 41px;
+    }
+
+    .main .subscribe-us .subscribe form .input-textbox input {
+        width: 15rem !important;
+    }
+
+    .main > .services .service {
+        width: 13rem;
+    }
+
+}
+
+/* If the viewport is equal to 792px or less than that */ 
+@media only screen and (max-width: 792px) {
+    .main .about .about-title h2 > span {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .main .brands .experience .years {
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .main .brands .experience .bg-panel {
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .main .brands .experience .call-me {
+        padding-left: 3%;
+    }
+
+    .main .projects .button-group button {
+        font: normal 500 18px/40px var(--font-roboto);
+    }
+
+    .main .about .about-title p {
+        padding: 0%;
+    }
+
+    .main .subscribe-us .subscribe form .input-textbox input {
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+
+/* If the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px) {
+    .header .navigation .navbar{
+        padding: 1rem;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .main .brands,
+    .main .services .services-title,
+    .main .about {
+        padding: 3% 4%;
+    }
+
+
+}

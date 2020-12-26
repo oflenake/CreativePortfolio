@@ -1,0 +1,199 @@
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
+ */
+
+/*! Fonts - Nunito, Nunito Sans, Roboto and Roboto Mono.
+ *  Dimensions - Nunito
+ *  -------------------
+ *  0: 400 - Nunito-Regular.ttf
+ *  1: 400 - Nunito-Italic.ttf
+ *  0: 600 - Nunito-SemiBold.ttf
+ *  1: 600 - Nunito-SemiBoldItalic.ttf
+ *  0: 700 - Nunito-Bold.ttf
+ *  1: 700 - Nunito-BoldItalic.ttf
+ *  0: 800 - Nunito-ExtraBold.ttf
+ *  1: 800 - Nunito-ExtraBoldItalic.ttf
+ *
+ *  Dimensions - Nunito Sans
+ *  ------------------------
+ *  0: 400 - NunitoSans-Regular.ttf
+ *  1: 400 - NunitoSans-Italic.ttf
+ *  0: 600 - NunitoSans-SemiBold.ttf
+ *  1: 600 - NunitoSans-SemiBoldItalic.ttf
+ *  0: 700 - NunitoSans-Bold.ttf
+ *  1: 700 - NunitoSans-BoldItalic.ttf
+ *  0: 800 - NunitoSans-ExtraBold.ttf
+ *  1: 800 - NunitoSans-ExtraBoldItalic.ttf
+ *
+ *  Dimensions - Roboto
+ *  -------------------
+ *  0: 400 - Roboto-Regular.ttf
+ *  1: 400 - Roboto-Italic.ttf
+ *  0: 500 - Roboto-Medium.ttf
+ *  1: 500 - Roboto-MediumItalic.ttf
+ *  0: 700 - Roboto-Bold.ttf
+ *  1: 700 - Roboto-BoldItalic.ttf
+ *  0: 900 - Roboto-Black.ttf
+ *  1: 900 - Roboto-BlackItalic.ttf
+ *
+ *  Dimensions - Roboto Mono
+ *  ------------------------
+ *  0: 300 - RobotoMono-Light.ttf
+ *  1: 300 - RobotoMono-LightItalic.ttf
+ *  0: 400 - RobotoMono-Regular.ttf
+ *  1: 400 - RobotoMono-Italic.ttf
+ *  0: 500 - RobotoMono-Medium.ttf
+ *  1: 500 - RobotoMono-MediumItalic.ttf
+ *  0: 700 - RobotoMono-Bold.ttf
+ *  1: 700 - RobotoMono-BoldItalic.ttf
+ */
+
+/* Nunito */
+@font-face {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../fonts/Nunito-Regular.ttf) format("truetype"),
+         url(../fonts/Nunito-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-display: block;
+    src: url(../fonts/Nunito-SemiBold.ttf) format("truetype"),
+         url(../fonts/Nunito-SemiBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url(../fonts/Nunito-Bold.ttf) format("truetype"),
+         url(../fonts/Nunito-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-display: block;
+    src: url(../fonts/Nunito-ExtraBold.ttf) format("truetype"),
+         url(../fonts/Nunito-ExtraBoldItalic.ttf) format("truetype");
+}
+
+/* Nunito Sans */
+@font-face {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../fonts/NunitoSans-Regular.ttf) format("truetype"),
+         url(../fonts/NunitoSans-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-display: block;
+    src: url(../fonts/NunitoSans-SemiBold.ttf) format("truetype"),
+         url(../fonts/NunitoSans-SemiBoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url(../fonts/NunitoSans-Bold.ttf) format("truetype"),
+         url(../fonts/NunitoSans-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Nunito Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-display: block;
+    src: url(../fonts/NunitoSans-ExtraBold.ttf) format("truetype"),
+         url(../fonts/NunitoSans-ExtraBoldItalic.ttf) format("truetype");
+}
+
+/* Roboto */
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype"),
+         url(../fonts/Roboto-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype"),
+         url(../fonts/Roboto-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype"),
+         url(../fonts/Roboto-BoldItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url(../fonts/Roboto-Black.ttf) format("truetype"),
+         url(../fonts/Roboto-BlackItalic.ttf) format("truetype");
+}
+
+/* Roboto Mono */
+@font-face {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url(../fonts/RobotoMono-Light.ttf) format("truetype"),
+         url(../fonts/RobotoMono-LightItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url(../fonts/RobotoMono-Regular.ttf) format("truetype"),
+         url(../fonts/RobotoMono-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-display: block;
+    src: url(../fonts/RobotoMono-Medium.ttf) format("truetype"),
+         url(../fonts/RobotoMono-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto Mono", monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url(../fonts/RobotoMono-Bold.ttf) format("truetype"),
+         url(../fonts/RobotoMono-BoldItalic.ttf) format("truetype");
+}

@@ -1,0 +1,64 @@
+/*!
+ * Onkgopotse Lenake Creative Portfolio v1.2.1 (https://onkgopotselenake.me/) 
+ * Copyright © 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/CreativePortfolio/blob/master/LICENSE)
+ */
+
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS Variables */
+:root {
+    /* Primary Color Blue and Secondary Color Gold */
+    --primary-color-dark: #225CFF;
+    --primary-color: #0078D7;
+    --primary-color-light: #00C6FC;
+    --accent-color: #78BE43;
+    --cyan-color: #19BFD3;
+
+    --secondary-color-dark: #FFC107;
+    --secondary-color: #00C6FC;
+    --secondary-color-light: #FFE100;
+
+    --ternary-color-dark: #333333;
+    --ternary-color: #666666;
+    --ternary-color-light: #909090;
+    --grayish-blue-darker: #4B5B70;
+
+    /* Other Palette Colors */
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+
+    --primary-background-color-dark: #4E5FCA;
+    --primary-background-color: #E6E6FA;
+    --primary-background-color-light: #F4F7FF;
+
+    --disabled-text-color: #BDBDBD;
+    --divider-color: #BDBDBD;
+    --border-color: #BDBDBD;
+    --icon-color: #FFFFFF;
+
+    --success-color: #00B74A;
+    --info-color: #39C0ED;
+    --warning-color: #FFA900;
+    --danger-color: #F93154;
+
+    --light-color: #FBFBFB;
+    --dark-color: #262626;
+    --white-color: #FFF;
+    --black-color: #000;
+
+    --gradient-color: linear-gradient(90deg, #0078D7 0%, #00C6FC 100%);
+    --shadow-color: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+
+    /* Font-Family Variables */
+    --font-nunito: "Nunito", sans-serif;
+    --font-roboto: "Roboto Mono", monospace;
+    --font-sans-serif: sans-serif;
+	--font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

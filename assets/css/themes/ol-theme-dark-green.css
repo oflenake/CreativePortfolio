@@ -1,0 +1,49 @@
+/*!
+ * Onkgopotse Lenake - Portfolio Website v1.0.0 (https://onkgopotselenake.me/)
+ * Copyright © 2020 Onkgopotse Lenake
+ * Licensed under MIT (https://github.com/OLenake/OLenake.github.io/blob/master/LICENSE)
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+	/* OLenake Color Palette - Primary Green */
+    --primary-color-900: #007BC9;
+    --primary-color-800: #0386FC;
+    --primary-color-700: #1C92FC;
+    --primary-color-600: #359EFD;
+    --primary-color-500: #4EAAFD;
+    --primary-color-400: #67B6FD;
+    --primary-color-300: #80C2FE;
+    --primary-color-200: #9ACEFE;
+    --primary-color-100: #8ADBFF;
+    --primary-color-50: #C5EDFF;
+
+    /* OLenake Color Palette - Other */
+	--primary-color: #606B56;
+	--secondary-color: #515A48;
+    --accent-color: #448AFF;
+
+	--primary-text-color: #FFF;
+	--secondary-text-color: #EEEEEE;
+    --primary-background-color: #515A48;
+    --secondary-background-color: #2A2F25;
+
+    --primary-button-color: #669966;
+    --secondary-button-color: #EEEEEE;
+	--primary-border-color: #161914;
+	--secondary-border-color: #FFF;
+
+    --divider-color: #BDBDBD;
+    --link-color: #17A2B8;
+    --link-hover-color: #757575;
+
+    --font-sans-serif: sans-serif;
+    --font-nunito: "Nunito", sans-serif;
+    --font-nunito-sans: "Nunito Sans", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-roboto-mono: "Roboto Mono", monospace;
+}
